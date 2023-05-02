@@ -8,9 +8,9 @@ import requests
 import hashlib
 import shutil
 
-url = "https://raw.githubusercontent.com/AkisGeorg/sharescreen/master/test.py"
+url = "https://raw.githubusercontent.com/AkisGeorg/sharescreen/master/server.py"
 
-local_file_path = "test.py"
+local_file_path = "server.py"
 
 response = requests.get(url)
 latest_version = response.text
