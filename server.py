@@ -38,8 +38,8 @@ class GUI:
         master.geometry("350x200")
         master.configure(bg="#f2f2f2")
         master.resizable(False, False)
-        p1 = PhotoImage()
-        master.iconphoto(False, p1)
+        #p1 = PhotoImage()
+        #master.iconphoto(False, p1)
         self.connected_clients = []
 
         style = ttk.Style()
